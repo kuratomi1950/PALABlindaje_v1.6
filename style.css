@@ -1,0 +1,329 @@
+
+@font-face {
+    font-family: "Nesatho";
+    src: url(Nesatho.ttf);
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url(CoolveticaRg.otf);
+}
+
+@font-face {
+    font-family: "Acumin";
+    src: url(Acumin-RPro.otf);
+}
+
+html{
+    background-color: #F7F0E8;
+   
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: "Nesatho";
+    font-size: 2.5rem;
+    color: #F7F0E8;
+}
+
+button{
+    padding: 1.2rem;
+    border: 0;
+    border-radius: 2rem;
+    background-color: #FF6B00;
+    font-family: "Coolvetica";
+    font-size: 2rem;
+    box-shadow: 2px 2px 1rem;
+    transition-duration: 0.2s;
+
+}
+
+
+.blueAccent{
+    color: #1919b4;
+    
+}
+
+.orangeAccent{
+    color: #FF6B00;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: "Acumin";
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h3{
+    text-align: center;
+    font-family: "Coolvetica";
+    font-weight: 50;
+    color: #F7F0E8;
+
+}
+
+
+
+.orangeTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #FF6B00;
+    padding-bottom: 7rem;
+    margin-bottom: 3rem;
+}
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 18rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+.leftMiddleText > .textOne{
+position: relative;
+top: 4rem;
+text-align: center;
+font-family: "Coolvetica";
+font-size: 1.5rem;
+}
+
+
+.leftMiddleText > .textTwo{
+position: relative;
+top: 4rem;
+text-align: center;
+font-family: "Coolvetica";
+font-size: 1.5rem;
+color: #1919b4;
+}
+
+
+.middleSection{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: auto;
+    z-index: 1;
+}
+
+
+.testimoniosText{
+    
+    box-shadow: 2px 2px 4rem #a5a19d;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Coolvetica";
+    font-size: 1.8rem;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.agendar{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-decoration: none;
+}
+
+.agendar:hover{
+    background-color: #e24f0a;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+
+.testimoniosContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 4rem;
+    gap: 8rem;
+}
+
+.card_testimonio_1 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 10px 15px 3rem #56555a;
+    padding-bottom: 12rem;
+    transition-duration: 0.2s;
+ 
+}
+
+
+.card_testimonio_1 > img{
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card_testimonio_1:hover{
+background-color: #e24f0a;
+height: 20rem;
+}
+
+.footerSectionContainer{
+    background-color: #1919b4;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+    box-shadow: 5px 5px 3rem;
+}
+
+
+
+.socialMediaImages{
+    text-align: center;
+    
+}
+
+
+.topButton{
+margin-top: 5rem;
+
+}
+
+.topButton:hover{
+    background-color: #e24f0a;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a > img{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 5rem;
+}
+
+.videoSection{
+    display: flex;
+     width: 50rem;
+}
+
+iframe{
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+@media (max-width: 957px){
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 25rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+
+}
+
+@media (max-width: 957px){
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 25rem;
+height: 10rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+h1{
+    font-family: "Nesatho";
+    text-align: center;
+    font-size: 2.5rem;
+    color: #F7F0E8;
+    
+}
+
+
+
+}
+
+@media (max-width: 450px){
+
+.orangeTop::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 22rem;
+height: 5rem;
+background-color: #F7F0E8;
+transform:skewY(-2.3deg);
+box-shadow: 1px 1px 5rem #56555a ;
+z-index: 0;
+}
+
+h1{
+    font-family: "Nesatho";
+    text-align: center;
+    font-size: 2rem;
+    color: #F7F0E8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.orangeTop > img{
+margin-top: 3rem;
+   width: 150px;
+}
+
+
+.orangeTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #FF6B00;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+}
+
