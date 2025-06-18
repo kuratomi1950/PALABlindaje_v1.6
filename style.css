@@ -69,16 +69,22 @@ h3{
 }
 
 
-
 .orangeTop{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
+    padding-top: 2rem;
     margin: auto;
     background-color: #FF6B00;
     padding-bottom: 7rem;
     margin-bottom: 3rem;
+}
+
+.orangeTop > img{
+    padding-top: 1rem;
+    width: 12rem;
 }
 
 .orangeTop::after {
@@ -96,7 +102,6 @@ z-index: 0;
 
 .leftMiddleText > .textOne{
 position: relative;
-top: 4rem;
 text-align: center;
 font-family: "Coolvetica";
 font-size: 1.5rem;
@@ -105,7 +110,6 @@ font-size: 1.5rem;
 
 .leftMiddleText > .textTwo{
 position: relative;
-top: 4rem;
 text-align: center;
 font-family: "Coolvetica";
 font-size: 1.5rem;
@@ -115,12 +119,12 @@ color: #1919b4;
 
 .middleSection{
     position: relative;
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 1rem;
     margin: auto;
     z-index: 1;
 }
@@ -206,7 +210,7 @@ height: 20rem;
 
 
 .topButton{
-margin-top: 5rem;
+margin-top: 2rem;
 
 }
 
@@ -229,7 +233,7 @@ a > img{
 
 .videoSection{
     display: flex;
-     width: 50rem;
+     width: 65rem;
 }
 
 iframe{
@@ -297,6 +301,18 @@ box-shadow: 1px 1px 5rem #56555a ;
 z-index: 0;
 }
 
+.middleSection{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: auto;
+    z-index: 1;
+}
+
 h1{
     font-family: "Nesatho";
     text-align: center;
@@ -307,8 +323,8 @@ h1{
 }
 
 .orangeTop > img{
-margin-top: 3rem;
-   width: 150px;
+margin-top: 4rem;
+   width: 125px
 }
 
 
